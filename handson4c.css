@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parents{
+    border: 0px solid grey;
+    height: 1000px;
+    width: 100%;
+    background-color: azure;
+}
+.child1{
+    background-image: linear-gradient(to right, red, green, orange);
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+}
+.child12{
+    text-align: center;
+    position: relative;
+    top: -5px;
+    left: 30px;
+    text-decoration: underline;
+}
+.child2{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 80px;
+    width: 700px;
+    background-color: rgb(187, 243, 243);
+    position: relative;
+    top: 15px;
+    left: 280px;
+}
+.child21{
+    position: relative;
+    left: 300px;
+
+}
+ul{
+    text-align: center;
+    display: inline-block;
+    /* margin-left: 20px; */
+}
+li{
+    margin-left: 20px;
+}
+.child3{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 145px;
+    background-color: aquamarine;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child31{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 90px;
+    width: 30%;
+    background-color: aqua;
+    position: relative;
+    left: 0px;
+    text-align: center;
+}
+.child32{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 70px;
+    width: 30%;
+    background-color: aqua;
+    position: relative;
+    left: -20px;
+    text-align: center;
+}
+.child33{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 70px;
+    width: 30%;
+    background-color: aqua;
+    position: relative;
+    right: 40px;
+    text-align: center;
+}
+.child34{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 70px;
+    width: 32%;
+    background-color: aqua;
+    position: relative;
+    left: 450px;
+    top: -15px;
+    text-align: center;
+}
+.child4{
+    background-image: linear-gradient(to right, red, orange, red);
+    border: 1px solid black;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+.child42{
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 500px;
+    font-weight: 200px;
+}
+.child5{
+    border: 0px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 80px;
+    background-image: radial-gradient(blue, green);
+}
+.child51{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    text-decoration: underline;
+}
+.child52{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -30px;
+    text-decoration: underline;
+}
+.child53{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -90px;
+    text-decoration: underline;
+}
+.child54{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: -150px;
+}
+.child8{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;
+    grid-auto-rows: 40px 70px 130px;
+    background-color: white;
+    width: 100%;
+}
+.child81{
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    grid-column: 1 / 5;
+    grid-row: 1;
+}
+h2{
+    text-align: center;
+}
+.child82{
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+h2{
+    text-align: center;
+}
+.child83{
+    color: white;
+    background-color: 	rgb(54, 54, 250);
+    border: 1px solid black;
+    grid-column: 2/3;
+    grid-row: 2 / 3;
+}
+.child84{
+    color: white;
+    background-color: 	navy;
+    border: 1px solid black;
+    grid-column: 3/4;
+    grid-row: 2 / 3;
+}
+.child85{
+    color: white;
+    background-color: orange;
+    border: 1px solid black;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.child86{
+    background-color: aqua;
+    border: 1px solid black;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+.child87{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
